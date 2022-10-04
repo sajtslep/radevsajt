@@ -160,6 +160,11 @@ img {
      outline: 0;
 }
 
+.pozovi {
+	display: flex;
+	justify-content: center;
+}
+
 .btn-custom {
      margin-top: 20px;
      background-color: transparent !important;
@@ -411,7 +416,15 @@ button {
      align-items: center;
      flex-wrap: wrap;
 }
-
+.pozoviodmah{
+	font-size: 17px;
+     background-color: #fff;
+     color: #000;
+     padding: 15px 0px;
+     width: 100%;
+     max-width: 170px;
+     text-align: center;
+}
 .read_more {
      font-size: 17px;
      background-color: #fff;
@@ -729,6 +742,20 @@ button {
      min-height: 732px;
 }
 
+iframe-container {
+  overflow: hidden;
+  padding-top: ; /* 16:9*/
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
 .main_form {
      margin-top: 70px;
      font-family: 'Roboto', sans-serif;
