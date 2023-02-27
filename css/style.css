@@ -313,8 +313,8 @@ button {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
-     padding: 127px 0px 0px 0px;
+     background: url(../images/banner.jpg);	
+     padding: 300px 0px 0px 0px;
      background-size: 100% 100%;
      background-repeat: no-repeat;
      min-height: 769px;
